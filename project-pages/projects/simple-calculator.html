@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+     <link rel="icon" href="../../assets/images/top-icon.png" />
+     <title>Simple Calculator</title>
+    <meta name="description" content="Portfolio page for a simple calculator in C using knowledge of binaries">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../../css/layout.css">
+    <link rel="stylesheet" href="../../css/typography.css">
+    <link rel="stylesheet" href="../../css/utilities.css">
+
+		<script defer src="../../js/script.js"></script>
+	</head>
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="../../index.html">
+        <span class="nav-title">Jasper's Portfolio</span>
+        <a class="button" href="mailto:jasperyap2001@gmail.com">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+        <div class="main-title">Simple Calculator</div>
+        <div class="body-text">A calculator able to perform simple arithmetic tasks. </div>
+        <image class="project-header-image" src="../../assets/images/Project-pages/Simple-Calculator/Simple-Calculator-IDE.png">
+      </div>
+
+      <!-- PROJECT DETAILS -->
+      <div id="project-details">
+        <div class="subheader-text">Project Details / Background</div>
+        <div class="project-details-content">
+          <div class="body-text">For Computer Architecture class, every student is required to make a calculator that is able to perform arithmetic tasks, such as addition, subtraction, multiplication, and division. The calculator should display how registers change based on user input. It is based on MIPS asssembly language. Instructions used are ADD (addition), SUB (subtration), MUL (multiplication), DIV (division), MOV (move), RST (reset), LW (load word), and SW (store word). Additional instructions we can use are JMP (jump), BEQ (branch if equal), BNE (branch if not equal), and  SLT (set if less than). </div>
+          <div class="body-text">For this project, the professor allows us to use whatever language as we may please. However, due to the nature of the class, I opted to use C language as it gives me the best opportunity to understand the class materials. I have specifically chosen CLion by Jetbrains to do this project, as their IDE provides a lot of useful tools, such as debugging line by line, for me to troubleshoot this asignment better.</div>
+          <div class="body-text">The user enters an input in MIPS assembly format, with OPCODE, operand 1 (destination), operand 2 (source), and operand 3 (source). Operands may have prefixes of either "0x" or "r", which indicate hexadecimal number and register number respectively. </div>
+        </div>
+      </div>
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <div class="subheader-text">Image Gallery</div>
+        <div class="project-gallery-content">
+            <!-- 
+              TODO
+
+              This is where the images in the gallery live. Here's a simple gallery image for you to copy:
+
+              Full Width Image:
+
+                <div class="gallery-image-container">
+                  <img src="../../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              Half Width Image: 
+
+                <div class="gallery-image-container half-width">
+                  <img src="../../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
+                  - IMAGE_NAME: the name of the image file in assets/images
+                  - IMAGE_CAPTION: to the caption of the image
+            -->
+            <div class="gallery-image-container half-width">
+              <img src="../../assets/images/Project-pages/Simple-Calculator/Simple-Calculator-input.png" class="gallery-image">
+              <span class="image-caption">Sample input I have created in terms of a text file.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../../assets/images/Project-pages/Simple-Calculator/Simple-Calculator-output.png" class="gallery-image">
+              <span class="image-caption">Sample output based on the sample input.</span>
+            </div>
+            <div class="gallery-image-container">
+              <img src="../../assets/images/Project-pages/Simple-Calculator/Simple-Calculator-struct.png" class="gallery-image">
+              <span class="image-caption">Struct I have created to store and process required information.</span>
+            </div>
+            <a class="button" href="https://github.com/Jasper-01/SimpleCalculator-ComputerArchitecture">
+              <span class="button-text">Check the full source code</span>
+              <image src="../../assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <a class="icon-link" target="_blank" href="https://www.instagram.com/_.jasper01/">
+        <image src="../../assets/icons/instagram.svg" class="footer-icon"/>
+      </a>
+      <a class="icon-link" href="mailto:jasperyap2001@gmail.com">
+        <image src="../../assets/icons/mail.svg" class="footer-icon"/>
+      </a>
+      <a class="icon-link" target="_blank" href="https://github.com/Jasper-01">
+        <image src="../../assets/icons/github.svg" class="footer-icon"/>
+      </a>
+      <a class="icon-link" target="_blank" href="https://www.tiktok.com/@_.jasper01">
+        <image src="../../assets/icons/tiktok.svg" class="footer-icon"/>
+      </a>
+    </div>
+
+	</body>
+</html>
