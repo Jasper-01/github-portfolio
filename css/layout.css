@@ -125,8 +125,12 @@ body {
 }
 
 .project-header-image {
-  width: 100%;
+  aspect-ratio: 1;
+  max-height: 30vw;
+  max-width: 100%;
+  width: auto;
   height: auto;
+  object-fit: contain;
 }
 
 #project-details {
